@@ -177,8 +177,8 @@ void Generator::PrimCube() {
 	}
 	octrees.push_back(octreeinstance);
 	// Analysis
-	areaCube(x, y, z);
-	volCube(x, y, z);
+	areaCube(x);
+	volCube(x);
 }
 
 void Generator::PrimCone() {

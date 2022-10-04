@@ -21,13 +21,13 @@ _inline void volCilin(float r, float a) {
 	std::cout << "Volume do cilindro = " << result << std::endl;
 }
 
-_inline void areaCube(float a, float b, float c) {
-	float result = 2 * (a * b + a * c + b * c);
+_inline void areaCube(float a) {
+	float result = 2 * (a * a + a * a + a * a);
 	std::cout << "Area do cube = " << result << std::endl;
 }
 
-_inline void volCube(float a, float b, float c) {
-	float result = a * b * c;
+_inline void volCube(float a) {
+	float result = a * a * a;
 	std::cout << "Volume do cube = " << result << std::endl;
 }
 

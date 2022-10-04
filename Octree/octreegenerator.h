@@ -24,7 +24,7 @@ public:
 	Generator(bool s) {
 		octrees.clear();
 		see = s;
-		limit = 5;
+		limit = 4;
 	}
 
 	_inline voxel SuperVoxelGlobal() {
